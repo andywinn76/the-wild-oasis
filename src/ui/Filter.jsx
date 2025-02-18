@@ -1,7 +1,6 @@
 import styled, { css } from "styled-components";
 import { useSearchParams } from "react-router-dom";
-import { getDefaultOptions } from "date-fns";
-import { current } from "@reduxjs/toolkit";
+import { configureStore } from '@reduxjs/toolkit';
 
 const StyledFilter = styled.div`
   border: 1px solid var(--color-grey-100);
